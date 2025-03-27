@@ -17,7 +17,7 @@ public class App extends JFrame {
     }
 
     private void createUI() {
-        setTitle("IPO Timeline Generator");
+        setTitle("Investec IPO Timeline Generator");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(1920, 1080);
         setLayout(new BorderLayout(10, 10));
@@ -25,7 +25,7 @@ public class App extends JFrame {
         // Header Panel
         JPanel headerPanel = new JPanel();
         headerPanel.setBackground(new Color(220, 221, 222));
-        JLabel titleLabel = new JLabel("IPO Timeline Generator");
+        JLabel titleLabel = new JLabel("Investec IPO Timeline Generator");
         titleLabel.setFont(new Font("SF Pro", Font.BOLD, 28));
         headerPanel.add(titleLabel);
 
