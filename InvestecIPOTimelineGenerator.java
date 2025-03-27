@@ -14,9 +14,9 @@ public class InvestecIPOTimelineGenerator {
         LocalDate auditStart = filingDate.minusMonths(3);
         LocalDate preparationStart = auditStart.minusMonths(6);
 
-        timeline.add(new IPOPhase("Preparation Phase", preparationStart, auditStart.minusDays(1)));
+        timeline.add(new IPOPhase("Pre-Preparation Phase", preparationStart, auditStart.minusDays(1)));
         timeline.add(new IPOPhase("Financial Audit", auditStart, filingDate.minusDays(1)));
-        timeline.add(new IPOPhase("SEC Filing", filingDate, roadshowStart.minusDays(1)));
+        timeline.add(new IPOPhase("FSCA & JSE Filling", filingDate, roadshowStart.minusDays(1)));
         timeline.add(new IPOPhase("Investor Roadshow", roadshowStart, pricingDate.minusDays(1)));
         timeline.add(new IPOPhase("Pricing Date", pricingDate, pricingDate));
         timeline.add(new IPOPhase("IPO Launch", ipoDate, ipoDate));
