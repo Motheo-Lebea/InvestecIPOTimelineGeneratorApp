@@ -11,4 +11,14 @@ Step by step breakdown to effectively use my app:
 2. Download Java 17. (java.sun.com)
 3. Open a new project and only copy the files on the respository (only App.java and InvestecIPOTimelineGenerator.java).
 
+<img width="1440" alt="Screenshot 2025-03-31 at 15 39 59" src="https://github.com/user-attachments/assets/4250022e-addb-442e-8d9a-33dc1ab36e7a" />
+
+
+<img width="1440" alt="Screenshot 2025-03-31 at 15 40 35" src="https://github.com/user-attachments/assets/1bfb86e4-0bd8-44dc-842a-cca879a75db0" />
+
+
+
+
+
+
 
